@@ -18,7 +18,7 @@ baseurl: /covid-booster-shot-screener
 # - You can use an absolute link to an existing image.
 # - Or you can upload an image to the repository and use a relative link, starting with "../img/"
 # - Make sure your filename doesn't have any spaces.
-homepage-image: "../img//Firefly Inpaint 20230714161129.png"
+homepage-image: "../img/Firefly%20Inpaint%2020230714161129.png"
 
 # Define content collections
 collections:
