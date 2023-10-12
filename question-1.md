@@ -9,7 +9,7 @@ text: Are you considered a moderately to severly immunocompromised person?
 answers:
   - text: "Yes, I am immunocompromised"
     path: success
-  - text: "No, I am immunocompromised"
+  - text: "No, I am not immunocompromised"
     path: question-2
 
 # Whether this question includes related resources (yes or no)
