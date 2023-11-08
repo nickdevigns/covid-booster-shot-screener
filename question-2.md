@@ -2,16 +2,16 @@
 ### CONTENT ###
 
 # The question you want to ask
-text: What is the main concern of your complaint?
+text: Who is this vaccine appointment for?
 
 # The answer options and page name of destination associated with each answer
 # Add as many as you need.
 answers:
-  - text: "My privacy rights were violated"
+  - text: "Self"
     path: question-3
-  - text: "I have not been given access to my medical records after a request over 30 days ago"
+  - text: "Someone else"
     path: success
-  - text: "It’s about something else"
+  - text: "Not sure"
     path: q2-exit
 
 # Whether this question includes related resources (yes or no)
