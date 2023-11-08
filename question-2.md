@@ -23,7 +23,7 @@ resources: yes
 ### NAVIGATION ###
 
 # The name of this page used for the URL, for example, who.html
-slug: what
+slug: question-2
 
 # The name of the page where the back button goes from this question
 back: question-1
