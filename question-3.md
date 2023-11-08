@@ -2,15 +2,15 @@
 ### CONTENT ###
 
 # The question you want to ask
-text: Has this incident occurred within the last 6 months?
+text: Have you received a COVID-19 vaccine in the last two months?
 
 # The answer options and page name of destination associated with each answer
 # Add as many as you need.
 answers:
-  - text: "Yes, this incident has occurred within the last 6 months"
-    path: success
-  - text: "No, this incident occurred over 6 months ago"
+  - text: "Yes"
     path: q3-exit
+  - text: "No"
+    path: success
 
 # Whether this question includes related resources (yes or no)
 # To add resources, create a content page in the "_resources" folder and add this question's filename to the "related-page-name" setting, for example, who.md.
