@@ -2,15 +2,15 @@
 ### CONTENT ###
 
 # The question you want to ask
-text: Are you considered a moderately to severly immunocompromised person?
+text: Who are you scheduling for?
 
 # The answer options and page name of destination associated with each answer
 # Add as many as you need.
 answers:
-  - text: "Yes, I am immunocompromised"
-    path: success
-  - text: "No, I am not immunocompromised"
+  - text: "Individual (all vaccines)"
     path: question-2
+  - text: "Group (COVID-19 and flu only)"
+    path: success
 
 # Whether this question includes related resources (yes or no)
 # To add resources, create a content page in the "_resources" folder and add this question's filename to the "related-page-name" setting, for example, who.md.
