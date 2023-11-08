@@ -1,9 +1,9 @@
 # Configure step indicator
 # Status options: completed, current, not completed
 - label: Who are you scheduling for?
-  status: completed
-- label: Who is this vaccine appointment for?
   status: current
+- label: Who is this vaccine appointment for?
+  status: not completed
 - label: Previously vaccinated past two months?
   status: not completed
 
