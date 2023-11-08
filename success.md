@@ -14,17 +14,16 @@ title: Success
     </div>
 </div>
 
-Based on your responses so far, we recommend you proceed with filing your complaint.
+Based on your responses so far, we recommend you proceed with scheduling your COVID-19 vaccine.
 {: .usa-intro}
 
 ## What we will need from you
 - Your **personal information**
-- **Complaint details**, including the names of any individuals, organizations, or agencies involved
-- Any **supporting documentation** that may help when reviewing your complaint
+- **Personal details**, including the names of any individuals, previous vaccinations, and allergies
+- Any **supporting documentation** that may help when scheduling your appointment
 - Your **electronic signature** and consent
 
 ## What happens next
-- After completing each section and submitting the complaint, you will be able to print out a copy of your complaint to keep for your records.
-- We will review the complaint and send you a written response within 30 days.
+- After completing each section and submitting the complaint, you will be able to print out a copy of your appointment to keep for your records.
 
 <button class="usa-button usa-tooltip" data-position="top" title="You've reached the end of the prototype.😁">Proceed to next section</button>
