@@ -3,7 +3,7 @@
 - label: Who are you scheduling for?
   status: current
 - label: Who is this vaccine appointment for?
-  status: current
+  status: not completed
 - label: Previously vaccinated past two months?
-  status: current
+  status: not completed
 
