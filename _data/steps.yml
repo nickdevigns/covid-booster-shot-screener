@@ -1,9 +1,9 @@
 # Configure step indicator
 # Status options: completed, current, not completed
-- label: who
+- label: who1
   status: current
-- label: what
+- label: what1
   status: current
-- label: when
+- label: when1
   status: current
 
