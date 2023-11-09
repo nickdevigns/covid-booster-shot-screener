@@ -6,6 +6,8 @@
     {% if page.url == step.link %}
     {% assign item = step.status %}
     <!-- {% assign status = step.status | where: step.link, "/question-1.html" %} -->
+
+    {% endif %}
     
     {% case item %}
     {% when "completed" %}
@@ -23,7 +25,7 @@
     </li>
     {% endcase %}
     
-    {% endif %}
+    
     
     {% endfor %}
     
