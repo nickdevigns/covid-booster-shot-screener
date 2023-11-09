@@ -2,7 +2,11 @@
   <ol class="usa-step-indicator__segments">
 
     {% for page in site.pages %}
-    <!-- {% if page.slug == "who" %}{{ step.status = "completed" }}{% endif %} -->
+    {% if page.slug == "who" %}
+    <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
+      <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">completed</span></span>
+    </li>
+    {% endif %}
     {% endfor %}
     
     {% for step in site.data.steps %}
