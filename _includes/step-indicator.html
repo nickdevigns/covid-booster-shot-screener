@@ -3,7 +3,7 @@
 
     {% for item in site.data.steps %}
     {% if page.url == item.link %}
-    {{ item.status = "current" }}
+    {{ item.status = current }}
     {% endif %}
     {% endfor %}
     
