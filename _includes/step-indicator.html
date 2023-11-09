@@ -8,7 +8,7 @@
     
     {% for step in site.data.steps %}
     {% assign item = step.status %}
-    {% if page.slug == "who" %}{{ step.status == "completed" }}{% endif %}
+    {% if page.slug == "who" %}{{ step.status = "completed" }}{% endif %}
     {% case item %}
     {% when "completed" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
