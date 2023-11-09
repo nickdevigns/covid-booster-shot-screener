@@ -2,8 +2,11 @@
 # Status options: completed, current, not completed
 - label: Who are you scheduling for?
   status: not completed
+  link: /question-1.html
 - label: Who is this vaccine appointment for?
   status: not completed
+  link: /question-2.html
 - label: Previously vaccinated past two months?
   status: not completed
+  link: /question-3.html
 
