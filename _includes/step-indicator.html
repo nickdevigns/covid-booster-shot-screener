@@ -3,7 +3,7 @@
     
     {% for step in site.data.steps %}
     <!-- {% assign item = step.status %} -->
-    {% assign item = step.status | where: step.link, page.url %}
+    {% assign item = step.status | where: step.link, "/question-1.html" %}
     {% case item %}
     {% when "completed" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
