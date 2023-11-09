@@ -2,21 +2,21 @@
   <ol class="usa-step-indicator__segments">
     
     {% for step in site.data.steps %}
-    <!-- {% assign item = step.status %} -->
-    {% assign item = step.status | where: step.link, "/question-1.html" %}
+    {% assign item = step.status %}
+    <!-- {% assign status = step.status | where: step.link, "/question-1.html" %} -->
     {% case item %}
     {% when "completed" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
-      <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">completed</span></span>
+      <span class="usa-step-indicator__segment-label">{{ step.label }}{{ step.link }}<span class="usa-sr-only">completed</span></span>
     </li>
     {% when "current" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--current"
     aria-current="true">
-      <span class="usa-step-indicator__segment-label">{{ step.label }}</span>
+      <span class="usa-step-indicator__segment-label">{{ step.label }}{{ step.link }}</span>
     </li>
     {% when "not completed" %}
     <li class="usa-step-indicator__segment">
-      <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">not completed</span></span>
+      <span class="usa-step-indicator__segment-label">{{ step.label }}{{ step.link }}<span class="usa-sr-only">not completed</span></span>
     </li>
     {% endcase %}
     {% endfor %}
