@@ -3,8 +3,7 @@
     {% for step in site.data.steps %}
     
     <!-- {% if page.url == step.link %} -->
-    {% assign link = page.url %}
-    {% case link %}
+    {% case page.url %}
     {% when "/question-1.html" %}
     {% when "/question-2.html" %}
     {% when "/question-3.html" %}
