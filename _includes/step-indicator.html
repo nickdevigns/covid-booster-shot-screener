@@ -3,9 +3,7 @@
 
     {% for page in site.pages %}
     {% if page.slug == "who" %}
-    {% for step in site.data.steps %}
     {{ step.status = "completed" }}
-    {% endfor %}
     {% endif %}
     {% endfor %}
     
