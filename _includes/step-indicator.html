@@ -2,7 +2,7 @@
   <ol class="usa-step-indicator__segments">
     {% for step in site.data.steps %}
     <!-- {% if page.url == step.link %} -->
-    <!-- {% assign currentStep = site.data.steps | where: step.link, page.url %} -->
+    <!-- {% assign current = site.data.steps | where: step.link, page.url %} -->
     <!-- {% endif %} -->
     {% assign item = step.status %}
     {% case item %}
