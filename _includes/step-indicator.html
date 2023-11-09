@@ -5,9 +5,8 @@
     
     {% if page.url == step.link %}
     {% assign item = step.status %}
-    {% endif %}
-    
     <!-- {% assign status = step.status | where: step.link, "/question-1.html" %} -->
+    
     {% case item %}
     {% when "completed" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
@@ -24,7 +23,10 @@
     </li>
     {% endcase %}
     
+    {% endif %}
+    
     {% endfor %}
+    
     <!-- <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
       <span class="usa-step-indicator__segment-label">Before you file<span class="usa-sr-only">completed</span></span>
     </li>
