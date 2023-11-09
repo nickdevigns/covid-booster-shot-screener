@@ -1,9 +1,17 @@
 <div class="usa-step-indicator margin-top-1 margin-bottom-0 border-bottom-1px padding-bottom-2 border-base-light" aria-label="progress">
   <ol class="usa-step-indicator__segments">
     {% for step in site.data.steps %}
+    
     <!-- {% if page.url == step.link %} -->
-    <!-- {% assign current = site.data.steps | where: step.link, page.url %} -->
-    <!-- {% endif %} -->
+    {% case page.url %}
+    {% when "/question-1.html" %}
+    {{ step.link }}
+    {% when "/question-2.html" %}
+    {{ step.link }}
+    {% when "/question-3.html" %}
+    {{ step.link }}
+    {% endcase %}
+    
     {% assign item = step.status %}
     {% case item %}
     {% when "completed" %}
