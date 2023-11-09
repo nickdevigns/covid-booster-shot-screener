@@ -3,11 +3,13 @@
     
     {% for step in site.data.steps %}
     
-    {% if page.url == step.link %}
-    {% assign item = step.status %}
-    <!-- {% assign status = step.status | where: step.link, "/question-1.html" %} -->
+    <!-- {% if page.url == step.link %} -->
+    
+    {% assign currentStep = site.data.steps | where: page.url, step.link %}
 
-    {% endif %}
+    <!-- {% endif %} -->
+
+    {% assign item = step.status %}
     
     {% case item %}
     {% when "completed" %}
