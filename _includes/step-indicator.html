@@ -14,13 +14,11 @@
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
       <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">completed</span></span>
     </li>
-    {% if page.url == step.link %}
     {% when "current" %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--current"
     aria-current="true">
       <span class="usa-step-indicator__segment-label">{{ step.label }}</span>
     </li>
-    {% endif %}
     {% when "not completed" %}
     <li class="usa-step-indicator__segment">
       <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">not completed</span></span>
