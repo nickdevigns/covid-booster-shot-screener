@@ -2,11 +2,11 @@
   <ol class="usa-step-indicator__segments">
     {% for step in site.data.steps %}
     
-    <!-- {% if page.url == step.link %}
+    {% if page.url == step.link %}
     <li class="usa-step-indicator__segment usa-step-indicator__segment--current">
       <span class="usa-step-indicator__segment-label">{{ step.label }}</span>
     </li>
-    {% endif %} -->
+    {% endif %}
     
     {% assign item = step.status %}
     {% case item %}
@@ -14,13 +14,6 @@
     <li class="usa-step-indicator__segment usa-step-indicator__segment--complete">
       <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">completed</span></span>
     </li>
-    {% when "current" %}
-    {% if page.url == step.link %}
-    <li class="usa-step-indicator__segment usa-step-indicator__segment--current"
-    aria-current="true">
-      <span class="usa-step-indicator__segment-label">{{ step.label }}</span>
-    </li>
-    {% endif %}
     {% when "not completed" %}
     <li class="usa-step-indicator__segment">
       <span class="usa-step-indicator__segment-label">{{ step.label }}<span class="usa-sr-only">not completed</span></span>
